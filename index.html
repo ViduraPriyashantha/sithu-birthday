@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sithu ❤️</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Poppins', cursive;
+            background: linear-gradient(145deg, #ffdde1 0%, #ee9ca7 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        .heart-fall {
+            position: fixed;
+            top: -10vh;
+            font-size: 1.5rem;
+            animation: fall linear forwards;
+            pointer-events: none;
+            z-index: 999;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(110vh);
+                opacity: 0;
+            }
+        }
+
+        .birthday-card {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255,255,240,0.95);
+            border-radius: 70px 70px 90px 90px;
+            box-shadow: 0 25px 45px rgba(0,0,0,0.2), 0 0 0 8px #fff8, 0 0 0 12px #ffb6c1;
+            overflow: hidden;
+            position: relative;
+            z-index: 10;
+        }
+
+        .hero {
+            background: #ff6f91;
+            padding: 30px 20px 40px;
+            text-align: center;
+            color: white;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-family: 'Brush Script MT', cursive;
+            text-shadow: 3px 3px 0 #b43b5c;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            margin-top: 10px;
+        }
+
+        .hero .date {
+            font-size: 1.3rem;
+            background: #fff0c0;
+            display: inline-block;
+            padding: 5px 20px;
+            border-radius: 40px;
+            color: #b43b5c;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .age-badge {
+            background: #ffb347;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 30px;
+            margin-top: 12px;
+        }
+
+        .content {
+            padding: 35px 30px;
+            text-align: center;
+        }
+
+        .message {
+            font-size: 1.3rem;
+            line-height: 1.5;
+            background: #fff6e5;
+            padding: 25px;
+            border-radius: 60px;
+            margin-bottom: 35px;
+            color: #5a2e3a;
+            box-shadow: 0 8px 0 #ffcd94;
+        }
+
+        .message span {
+            display: block;
+            font-size: 1rem;
+            color: #ff6f91;
+            margin-top: 15px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 30px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+            border: 3px solid white;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .countdown-box {
+            background: #ffd966;
+            padding: 20px;
+            border-radius: 50px;
+            margin: 35px 0;
+            color: #2c1a21;
+        }
+
+        .countdown-box h3 {
+            font-size: 1.5rem;
+        }
+
+        #countdown {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .reasons {
+            background: #ffe3ea;
+            border-radius: 50px;
+            padding: 20px;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .reasons li {
+            margin: 12px 0;
+            list-style-type: "❤️ ";
+            font-size: 1.1rem;
+            padding-left: 10px;
+        }
+
+        .btn {
+            background: #ff6f91;
+            color: white;
+            border: none;
+            padding: 14px 25px;
+            border-radius: 60px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 15px 0 10px;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background: #e74c6e;
+            transform: scale(0.97);
+        }
+
+        footer {
+            background: #ffb7c3;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+            color: #5e2a36;
+        }
+
+        @media (max-width: 550px) {
+            .hero h1 { font-size: 2rem; }
+            .message { font-size: 1.1rem; }
+            .gallery img { width: 100px; height: 100px; }
+            #countdown { font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="birthday-card">
+    <div class="hero">
+        <h1>🎂 Happy Birthday Sithu! 🎂</h1>
+        <h2>💖 My Dearest Sithara 💖</h2>
+        <div class="date">✨ May 18th ✨</div>
+        <div class="age-badge">🎈 Turning 27 & more beautiful than ever! 🎈</div>
+    </div>
+
+    <div class="content">
+        <div class="message">
+            "To my Sithu, my everything —<br><br>
+            From the moment you came into my life, every day became brighter. 
+            Your smile is my favorite sunrise, and your laughter is the music I never want to stop hearing.<br><br>
+            On your 27th birthday, I just want you to know: You are my greatest adventure, my safest home, and the love of my life.<br><br>
+            Happy birthday, my beautiful Sithara. I love you more than words can say."
+            <span>— Forever yours, Vidura ❤️</span>
+        </div>
+
+        <!-- ★★★ GOOGLE DRIVE IMAGES - REPLACE THE FILE IDs BELOW ★★★ -->
+        <div class="gallery">
+            <img src="https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_1" alt="Sithu & Vidura 1">
+            <img src="https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_2" alt="Sithu & Vidura 2">
+            <img src="https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_3" alt="Sithu & Vidura 3">
+            <img src="https://drive.google.com/uc?export=view&id=YOUR_FILE_ID_4" alt="Sithu & Vidura 4">
+        </div>
+
+        <div class="countdown-box">
+            <h3>⏰ Countdown to May 18th, 2027 ⏰</h3>
+            <div id="countdown"></div>
+        </div>
+
+        <div class="reasons">
+            <h3>🎁 27 Reasons I Love You, Sithu:</h3>
+            <ul>
+                <li>Your kindness touches everyone around you</li>
+                <li>The way you say my name "Vidura..."</li>
+                <li>Your cute little nicknames for everything</li>
+                <li>You make me a better person every single day</li>
+                <li>Your hugs feel like coming home</li>
+                <li>You remember the smallest details about us</li>
+                <li>Your silly dance moves when you're happy</li>
+                <li>You believe in me when I don't believe in myself</li>
+                <li>Your morning voice is adorable</li>
+                <li>You love deeply and without condition</li>
+                <li>+17 more... but I'll save them to tell you in person 😘</li>
+            </ul>
+        </div>
+
+        <button class="btn" id="surpriseBtn">🎉 Click for a special surprise! 🎉</button>
+        <div id="surpriseMsg" style="font-size: 1.3rem; font-weight: bold; color:#c72a4f; margin: 15px;"></div>
+    </div>
+    <footer>
+        🎈 I love you today, tomorrow, and every birthday after, Sithu. 🎈<br>
+        💝 From Vidura with all my heart 💝
+    </footer>
+</div>
+
+<script>
+    // Falling hearts
+    function createHeart() {
+        const heart = document.createElement('div');
+        heart.innerHTML = ['❤️', '💖', '💗', '💘', '💝', '🌸', '✨'][Math.floor(Math.random() * 7)];
+        heart.classList.add('heart-fall');
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.fontSize = (Math.random() * 20 + 15) + 'px';
+        heart.style.animationDuration = Math.random() * 3 + 3 + 's';
+        document.body.appendChild(heart);
+        setTimeout(() => heart.remove(), 6000);
+    }
+    setInterval(createHeart, 350);
+
+    // Countdown
+    function updateCountdown() {
+        const today = new Date();
+        let nextBirthday = new Date(today.getFullYear(), 4, 18);
+        if (today > nextBirthday) {
+            nextBirthday.setFullYear(today.getFullYear() + 1);
+        }
+        const diff = nextBirthday - today;
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (86400000)) / (3600000));
+        const minutes = Math.floor((diff % 3600000) / 60000);
+        document.getElementById('countdown').innerHTML = `${days} days, ${hours} hours, ${minutes} minutes`;
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 60000);
+
+    // Surprise button
+    const surpriseBtn = document.getElementById('surpriseBtn');
+    const surpriseDiv = document.getElementById('surpriseMsg');
+    let surpriseCount = 0;
+    surpriseBtn.addEventListener('click', () => {
+        surpriseCount++;
+        const messages = [
+            "🎁 SURPRISE! I love you more than chocolate! 🍫",
+            "💍 Someday... but for now, just know you're my forever person 💕",
+            "🎂 Make a wish, my love! I hope all your dreams come true!",
+            "📞 Check your phone in 3...2...1... I'm calling you right now! ❤️",
+            "✨ You are the best thing that ever happened to me, Sithu. Happy 27th! ✨",
+            "🎈 I can't wait to celebrate so many more birthdays with you! 🎈"
+        ];
+        surpriseDiv.innerText = messages[surpriseCount % messages.length];
+        document.body.style.backgroundColor = "#ffc0cb";
+        setTimeout(() => document.body.style.backgroundColor = "", 600);
+    });
+</script>
+
+</body>
+</html>
